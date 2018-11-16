@@ -4,7 +4,7 @@ little code &amp; take notes
 
 [專位國中生寫的javascript程式書](https://ccckmit.gitbooks.io/javascript/content/ch2/chapter2.html) 習題練習
 
-###Ch2-1
+### Ch2-1
 ```
 function factorial(num){
   let sum = 1;
