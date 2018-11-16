@@ -1,0 +1,17 @@
+function factorial(num){
+  let sum = 1;
+  if(num > 0){
+    for (let i = 1; i<=num;i++){
+	  	sum = i * sum ;	
+	  }
+  }else if(num == 0){
+    sum = 1 ;
+  }else {
+	sum = "不是正整數";
+  }		
+  console.log(sum);		 	
+  return sum;
+}
+factorial(5);
+factorial(-5);
+factorial(0);
